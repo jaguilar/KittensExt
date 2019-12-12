@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "content_scripts": [ {
+      "exclude_globs":    [  ],
+      "include_globs":    [ "*" ],
+      "js":               [ "ImportActualScript.user.js" ],
+      "matches":          [   "https://bloodrizer.ru/games/kittens/*" ],
+      "run_at": "document_end"
+  } ],
+  "description":  "Just loads a script for kittens JS from my machine!",
+  "name":         "Kittens script",
+  "version":      "1"
+}
